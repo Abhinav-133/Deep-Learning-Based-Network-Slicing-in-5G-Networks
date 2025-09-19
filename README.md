@@ -28,26 +28,31 @@ The proposed slicing framework integrates **physical** and **virtual layers**:
 
 ---
 
-## 🔬 Methodology
-The implementation follows a systematic workflow:
+## Workflow  
 
-1. **System Setup**  
-   - Designed around SDN and NFV principles for efficient slice separation.  
+1. **Setup & Architecture**  
+   - SDN/NFV principles used to design the slicing framework.  
 
-2. **Data Acquisition & Preprocessing**  
-   - Encoding categorical features  
-   - Handling missing values  
-   - Feature extraction using **Cramer's V**  
+2. **Data Handling**  
+   - Cleaning and encoding the dataset  
+   - Feature extraction (e.g., Cramer’s V)  
+   - Filling missing values  
 
- <img width="669" height="434" alt="fig3" src="https://github.com/user-attachments/assets/11d89acc-13a9-46f2-89ba-3fd0da264392" />(fig3)
+  <img width="669" height="434" alt="fig3" src="https://github.com/user-attachments/assets/668bd1a3-19d9-4192-b46b-14932a573a8c" />(fig1)
+
+3. **Exploratory Analysis**  
+   - Visualized features and traffic patterns  
+   - Checked importance using ML techniques  
+
 
 3. **Exploratory Data Analysis (EDA)**  
    - Visualized distributions  
    - Categorized features  
-   - Extracted feature importance with ML models  
+   - Extracted feature importance
+   <img width="900" height="293" alt="fig4" src="https://github.com/user-attachments/assets/5bfcd6a7-7f01-46fb-a195-78c9be89ede5" />(fig4)
 
-  <img width="900" height="293" alt="fig4" src="https://github.com/user-attachments/assets/bd40b29a-80ff-4025-bf36-93d7e0b8c72b" />(fig4)
 
+ 
 4. **Model Training & Evaluation**  
    - Supervised deep learning architectures tested with multiple activation functions  
    - Metrics: **Accuracy, Precision, Recall, F1 Score**  
