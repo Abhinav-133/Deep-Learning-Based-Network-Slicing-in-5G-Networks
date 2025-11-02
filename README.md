@@ -1,11 +1,11 @@
 # Deep-Learning-Based-Network-Slicing-in-5G-Networks
-<img width="606" height="357" alt="fig1" src="https://github.com/user-attachments/assets/c5914d0b-f57f-481f-b6b5-fac3309800f4" />(fig1)
+
 
 ## 📌 Introduction
 **Network slicing in 5G** is the process of dividing a single physical network infrastructure into multiple **virtual networks (slices)**.  
 Each slice is tailored to meet the requirements of specific applications, services, or user groups. This ensures **customized performance** while sharing the same physical backbone.
 
-<img width="732" height="406" alt="fig2" src="https://github.com/user-attachments/assets/bc297d98-da72-473e-a2ec-5d6caef3bda9" />(fig2)
+
 
 ---
 
@@ -38,7 +38,7 @@ The proposed slicing framework integrates **physical** and **virtual layers**:
    - Feature extraction (e.g., Cramer’s V)  
    - Filling missing values  
 
-  <img width="669" height="434" alt="fig3" src="https://github.com/user-attachments/assets/668bd1a3-19d9-4192-b46b-14932a573a8c" />(fig1)
+
 
 3. **Exploratory Analysis**  
    - Visualized features and traffic patterns  
@@ -49,7 +49,7 @@ The proposed slicing framework integrates **physical** and **virtual layers**:
    - Visualized distributions  
    - Categorized features  
    - Extracted feature importance
-   <img width="900" height="293" alt="fig4" src="https://github.com/user-attachments/assets/5bfcd6a7-7f01-46fb-a195-78c9be89ede5" />(fig4)
+
 
 
  
@@ -65,7 +65,7 @@ The proposed slicing framework integrates **physical** and **virtual layers**:
 - **Evaluation**: Confusion matrices & classification reports validated model efficiency.  
 - **Comparative Analysis**: Deep learning consistently outperformed traditional approaches.  
 
-<img width="746" height="461" alt="results" src="https://github.com/user-attachments/assets/d6f7873f-ee1e-4ed7-998b-260e4e5df1ed" />(fig5)
+
 
 ---
 
